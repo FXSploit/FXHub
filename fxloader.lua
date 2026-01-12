@@ -11,5 +11,6 @@ for _, v in ipairs(supported_games) do
         break
     end
 end
+print(gameID)
 
-loadstring("https://github.com/FXSploit/FXHub/games/".. tostring(gameID), true)()
+loadstring("https://raw.githubusercontent.com/FXSploit/FXHub/refs/heads/main/games/".. tostring(gameID).. ".lua", true)()
