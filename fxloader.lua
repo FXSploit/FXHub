@@ -2,7 +2,7 @@ local gameID = tostring(game.GameId)
 print("hecker_melon was here")
 print(gameID)
 local supported_games = {
-    "102464178326906",
+    "9098443082",
 }
 
 for _, v in ipairs(supported_games) do
